@@ -15,7 +15,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_output/solidYellowCurve2.jpg "solidYellowCurve2.jpg"
+[image2]: ./test_images_output/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch.jpg"
 
 ---
 
@@ -34,10 +35,8 @@ x and y coordinates for the lines are calculated and the whole line is plotted.
 
 Here are 2 images after the addition of the red lane lines:
 
-[//]: # (Image References)
-
-[image1]: ./test_images_output/solidYellowCurve2.jpg "solidYellowCurve2.jpg"
-[image1]: ./test_images_output/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch.jpg"
+![image1]: [image1]
+![image2]: [image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
