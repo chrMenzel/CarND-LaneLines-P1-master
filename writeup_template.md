@@ -34,8 +34,8 @@ x and y coordinates for the lines are calculated and the whole line is plotted.
 
 Here are 2 images after the addition of the red lane lines:
 
-![solidYellowCurve2.jpg][./test_images_output/solidYellowCurve2.jpg]
-![whiteCarLaneSwitch.jpg][./test_images_output/whiteCarLaneSwitch.jpg]
+[solidYellowCurve2.jpg][./test_images_output/solidYellowCurve2.jpg]
+[whiteCarLaneSwitch.jpg][./test_images_output/whiteCarLaneSwitch.jpg]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
