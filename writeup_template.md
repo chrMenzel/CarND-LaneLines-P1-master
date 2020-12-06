@@ -34,6 +34,8 @@ x and y coordinates for the lines are calculated and the whole line is plotted.
 
 Here are 2 images after the addition of the red lane lines:
 
+[//]: # (Image References)
+
 [image1]: ./test_images_output/solidYellowCurve2.jpg "solidYellowCurve2.jpg"
 [image1]: ./test_images_output/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch.jpg"
 
