@@ -35,20 +35,21 @@ x and y coordinates for the lines are calculated and the whole line is plotted.
 
 Here are 2 images after the addition of the red lane lines:
 
-![image1]: [image1]
-![image2]: [image2]
+![solidYellowCurve2]: [image1]
+![whiteCarLaneSwitch]: [image2]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when the road is not only straight on and has curves. You can see this in the last video
+test_images_output/challenge.mp4. Another problem might come up when the car drives on roads without lane lines, which exist very often in villages or in the mountains. And driving in the night or another wheather than a sunny day may also be a problem.
 
-Another shortcoming could be ...
+Another shortcoming could be the line detection itself: I have seperated the right and left lane just according to the the slope of the line (negative = left lane, positive = right lane).
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
+A possible improvement would be to think about more conditions to choose the correct respectable lines from the Hough detection in order to get a better accuracy.
 
-Another potential improvement could be to ...
+Another potential improvement could be to use the single frames in the video (maybe the last second). With the history of these pictures the accuracy could be improved.
